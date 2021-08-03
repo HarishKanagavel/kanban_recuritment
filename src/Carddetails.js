@@ -1,12 +1,7 @@
 import { Component } from "react";
-import { Button } from "semantic-ui-react";
 import Styles from './styles/Carddetails.module.css';
 
 class Carddetails extends Component{
-    constructor(props){
-    super(props);
-
-}
     render(){
         const {data} = this.props;
         return(
