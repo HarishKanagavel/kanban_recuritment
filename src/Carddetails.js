@@ -21,7 +21,7 @@ class Carddetails extends Component{
                         <div className={Styles.dishes}>{Element.order}</div>
                         <div className={Styles.last}>
                         <div className={Styles.date}>Due:  {Element.data}</div>
-                        <div className={Styles.date}>Assigned to</div><span className={Styles.dot}></span>
+                        <div className={Styles.date}>Assigned to<span className={Styles.dot}></span></div>
                         <div>
                         </div>
                         </div>

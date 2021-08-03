@@ -2,7 +2,7 @@
     min-height: 20vh;
     text-align: left;
     color: #969696;
-    border-bottom: 10px solid #f7f7f7;
+    border-bottom: 10px solid white;
 }
 
 .resp {
@@ -29,10 +29,11 @@
     display: flex;
   width: 20px;
   height: 20px;
-  border-color: #dff5f0;
-  background-color: #dff5f0;
+  /* border-color: #dff5f0; */
+  background-color: #acf7e6;
   border-radius: 50%;
-  border-color: #c2eae0;
+  border-color: #bce7dd;
+  margin-left: 8px
 }
 
 .dishes {
@@ -40,6 +41,7 @@
 }
 
 .date{
+    display: inline-flex;
     color: black;
     font-size: 10px;
 }
@@ -58,7 +60,7 @@
 }
 
 .cardd{
-    background-color: white;
+    background-color: #f0f0f0;
     overflow-y: auto;
     height: 75vh;
     /* border-left: 2px solid green; */
