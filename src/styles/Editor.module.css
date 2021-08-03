@@ -1,6 +1,7 @@
 
 .header {
     display: flex;
+    flex-wrap: nowrap;
     justify-content: space-between;
     margin-bottom: 5px;
 }
@@ -8,18 +9,23 @@
 .label {
   padding: 2px;
   margin-right: 5px;
-  margin-top: 4px
+  margin-top: 4px;
+  font-weight: bold;
+  font-size: 15px;
 }
 .left{
+  flex-wrap: nowrap;
   display: flex;
 }
 
 .right {
+  flex-wrap: nowrap;
   display: flex;
 }
 
 .search {
-  border-radius: 0px !important;
+  padding: 2px;
+  margin-right: 5px;
 }
 
 .button {
@@ -28,6 +34,7 @@
     background-color: #f1f1f1;
     margin-right: 5px;
     border-radius: 5px;
+    font-weight: bold;
     font-size: smaller;
     height: 35px;
     padding: 9px;

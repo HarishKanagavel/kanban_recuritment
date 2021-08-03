@@ -1,5 +1,5 @@
 import { Component } from "react";
-import { Icon, button, Search } from 'semantic-ui-react';
+import { Icon, button, Input } from 'semantic-ui-react';
 import Styles from './styles/Editor.module.css';
 import Containers from './Containers';
 
@@ -24,7 +24,7 @@ class Editor extends Component{
                 <button className={Styles.button} ><Icon name='refresh'/></button>
                 </div>
                 <div className={Styles.right}>
-                  <div className={Styles.label}><Search className={Styles.search}/></div>  
+                  <div className={Styles.search}><Input icon='search' placeholder='Search...' /></div>  
                 <button className={Styles.button} ><Icon name='setting'/>Configuration</button>
                 <div className={Styles.label}>(0-30)</div>
                 <button className={Styles.button} ><Icon name='angle left'/></button>
