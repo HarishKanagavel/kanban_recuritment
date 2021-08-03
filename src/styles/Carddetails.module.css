@@ -1,0 +1,65 @@
+.card {
+    min-height: 20vh;
+    text-align: left;
+    color: #969696;
+    border-bottom: 10px solid #f7f7f7;
+}
+
+.resp {
+    height: 20px;
+    color: #136ae9;
+    background-color: lightblue;
+    border-radius: 4px;
+    border-style: solid;
+    border-color: #73afff;
+    padding: 1px;
+    margin-left: 3px;
+}
+
+.row1 {
+    display: block;
+}
+
+.last {
+    display: flex;
+    justify-content: space-between;
+}
+
+.dot {
+    display: flex;
+  width: 20px;
+  height: 20px;
+  border-color: #dff5f0;
+  background-color: #dff5f0;
+  border-radius: 50%;
+  border-color: #c2eae0;
+}
+
+.dishes {
+    font-size: 10px;
+}
+
+.date{
+    color: black;
+    font-size: 10px;
+}
+
+.order{
+    font-weight:bold;
+    color: black;
+    font-size: 14px;
+}
+
+.card1 {
+    padding: 11px;
+    border-radius: 2px;
+    border-left: 2px solid green;
+
+}
+
+.cardd{
+    background-color: white;
+    overflow-y: auto;
+    height: 75vh;
+    /* border-left: 2px solid green; */
+}

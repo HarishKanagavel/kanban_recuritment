@@ -1,0 +1,28 @@
+
+.contain{
+    min-height: 85vh;
+    margin-top: 15px;
+}
+
+.Column {
+    background-color: #f7f7f7;
+    margin-right: 5px;
+    min-height: 75vh;
+}
+
+.header{
+    text-align: left;
+    padding: 5px;
+    margin-bottom: 3px;
+    overflow-y: auto;
+}
+
+.grid {
+    padding-left: 8px !important;
+    padding-right: 8px !important;   
+}
+
+.maingrid {
+    margin-right: 10px;
+    margin-left: 10px;
+}
