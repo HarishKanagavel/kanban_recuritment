@@ -32,7 +32,6 @@ class Editor extends Component{
                 </div>
             </div>
             <Containers/>
-            {/* <Container1/> */}
             </div>
         );
     }
