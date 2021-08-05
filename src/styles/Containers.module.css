@@ -8,6 +8,9 @@
     background-color: #f0f0f0;
     margin-right: 5px;
     min-height: 85vh;
+    background-color: #f0f0f0;
+    overflow-y: auto;
+    height: 75vh;
 }
 
 .header{
