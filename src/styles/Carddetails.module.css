@@ -2,7 +2,7 @@
     min-height: 20vh;
     text-align: left;
     color: #969696;
-    border-bottom: 10px solid white;
+    border-bottom: 10px solid none;
 }
 
 .resp {
@@ -47,7 +47,9 @@
 }
 
 .order{
-    font-weight:bold;
+    font-weight:610;
+    margin-top: 2px;
+    margin-bottom: 1px;
     color: black;
     font-size: 14px;
 }
@@ -56,7 +58,8 @@
     padding: 11px;
     border-radius: 2px;
     border-left: 2px solid green;
-
+    text-align: left;
+    background-color: white;
 }
 
 .cardd{
